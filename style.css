@@ -1,0 +1,16 @@
+h1,h2{
+    text-align: center;
+}
+.gridWrapper{
+    display: grid ;
+    grid-template-columns: 4fr 1fr;
+    grid-auto-rows: (100px,auto);
+}
+.wrappedItem1{
+    grid-column: 1;
+    grid-row: 1;
+}
+.homeMenu{
+    grid-column: 2;
+    grid-row: 1;
+}
